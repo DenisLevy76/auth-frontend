@@ -1,3 +1,5 @@
+import { InputComponentContainer } from './styles';
+
 export const InputComponent = (props) => (
-  <input {...props} className="inputComponent"/>
+  <InputComponentContainer {...props}/>
 )

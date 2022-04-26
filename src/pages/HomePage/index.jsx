@@ -1,3 +1,5 @@
+import { InputComponent } from '../../components/InputComponent';
+
 export const HomePage = () => (
-  <h1>hello, world</h1>
+  <InputComponent />
 )
