@@ -1,5 +1,9 @@
-import { InputComponentContainer } from './styles';
+import { InputComponentContainer, InputComponentStyle, InputHelperText, InputLabel } from './styles';
 
-export const InputComponent = (props) => (
-  <InputComponentContainer {...props}/>
+export const InputComponent = ({id,labelText, variant='light', helperText, ...others}) => (
+  <InputComponentContainer>
+    <InputLabel htmlFor={id}>{labelText}</InputLabel>
+    <InputComponentStyle id={id} variant={variant} {...others}/>
+    {helperText && <InputHelperText>{helperText}</InputHelperText>}
+  </InputComponentContainer>
 )
