@@ -27,11 +27,13 @@ export const InputComponentStyle = styled.input`
 `;
 
 export const InputLabel = styled.label`
-  font-weight: 700;
-  margin-bottom: 0.3rem;
+  ${(color) => css`
+    font-weight: 700;
+    margin-bottom: 0.3rem;
 
 
-  color: #e2eaff;
+    color: ${color};
+  `}
 `
 
 export const InputHelperText = styled.p`
