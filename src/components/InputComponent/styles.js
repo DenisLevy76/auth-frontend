@@ -21,7 +21,7 @@ export const InputComponentStyle = styled.input`
     }
 
     &::placeholder{
-      color: ${variant === 'light' ? '#706e7f' : '#a5c2ff'};
+      color: ${variant === 'light' ? '#BBC7E6' : '#a5c2ff'};
     }
   `}
 `;
