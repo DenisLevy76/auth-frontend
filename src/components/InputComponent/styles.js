@@ -7,9 +7,6 @@ export const InputComponentContainer = styled.div`
 
 export const InputComponentStyle = styled.input`
   ${({variant}) => css`
-    margin: 0;
-    box-sizing: border-box;
-
     background-color: transparent;
     border-radius: 0.3rem;
 
@@ -27,10 +24,6 @@ export const InputComponentStyle = styled.input`
 `;
 
 export const InputLabel = styled.label`
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 
 
@@ -38,10 +31,6 @@ export const InputLabel = styled.label`
 `
 
 export const InputHelperText = styled.p`
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #ae4646;
 `
