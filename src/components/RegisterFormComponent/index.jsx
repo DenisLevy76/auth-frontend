@@ -12,7 +12,7 @@ export const RegisterFormComponent = () => (
       <InputComponent id="RG" labelText="RG" required type="number" variant='dark' labelColor='#e2eaff' placeholder="1234567"/>
       <InputComponent id="cellphone" labelText="Celular" type="number" variant='dark' labelColor='#e2eaff' placeholder="(12) 91324-1234"/>
       <InputComponent id="email" labelText="Email" type="email" variant='dark' labelColor='#e2eaff' placeholder="exemplo@exemplo.com"/>
-      <InputComponent id="birthday" labelText="Data de nascimento" required type="date" variant='dark' labelColor='#e2eaff'/>
+      <InputComponent id="birthday" labelText="Data de nascimento" required type="date" variant='dark' labelColor='#e2eaff' placeholder="12/12/2012"/>
       <InputComponent id="password" labelText="Senha" required type="text" variant='dark' labelColor='#e2eaff'/>
       <ButtonComponent textLabel="Registrar" bgcolor='white' color='#3e66ff' variant='dark' labelColor='#e2eaff'/>
     </FormRegister>
