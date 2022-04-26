@@ -4,11 +4,10 @@ export const InputComponentContainer = styled.div`
   display: flex;
   flex-direction: column;
 `
-
 export const InputComponentStyle = styled.input`
   ${({variant}) => css`
     background-color: transparent;
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
 
     border: 1px solid ${variant === 'light' ? '#b6b5bc' : '#b6cdff'};
     color: ${variant === 'light' ? '#67719a' : '#b6b5bc'};
