@@ -1,7 +1,10 @@
+import { InvisibleContainerComponent } from '../../components/InvisibleContainerComponent';
 import { LoginComponent } from '../../components/LoginComponent';
 
 export const HomePage = () => (
   <>
-    <LoginComponent/>
+    <InvisibleContainerComponent>
+      <LoginComponent/>
+    </InvisibleContainerComponent>
   </>
 )
