@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   */
 
   * {
+    
     margin: 0;
     padding: 0;
     border: 0;
@@ -22,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     display: block;
   }
   body {
+    background-color: #7790f7;
     line-height: 1;
   }
   ol, ul {
